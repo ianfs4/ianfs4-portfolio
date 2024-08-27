@@ -4,15 +4,50 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
-    background: #333;
+nav {
+    /* background: #4E2A84; */
     color: #fff;
     padding: 1rem;
     text-align: center;
 }
+.navbar-brand {
+    color: #fff
+}
+.nav-link {
+    color: #dcdcdc
+}
+.nav-link:hover, .navbar-brand:hover {
+    color: #fff
+}
 section {
     padding: 1rem;
 }
-h1, h2 {
-    color: #333;
+h1 {
+    color: #fff
+}
+h2 {
+    color: #fff;
+}
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('../images/lakefill.jpg');
+    background-size: cover;
+    position: relative;
+    text-shadow: 0px 0px 5px #333;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
